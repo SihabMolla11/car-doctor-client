@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container {
+  @apply w-full lg:max-w-[90%] mx-auto;
+}
+
+.active {
+  background: none;
+  color: rgb(43, 157, 250);
+}
+
+.my-btn {
+  @apply btn btn-outline bg-[#FF3811] hover:bg-[#FF3811] text-white hover:border-[#FF3811] border-[#FF3811] font-medium;
+}
